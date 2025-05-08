@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="searchBox">
+        <input type="text" class="inputSearch" placeholder="Search ..." />
+        <div id="iconeContainer">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="size-6 searchIcone"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"
+            />
+          </svg>
+        </div>
+      </div>
+      <div class="Loding">Loding . . .</div>
+      <div id="information">
+        <div class="NameCity">Weather in <span id="CiteName">City</span></div>
+        <div class="Drgee"><span id="NumberDrgee">4</span> ℃</div>
+        <div class="wetherInformation">
+          <div>
+            <span>status : </span><span>Sunny</span>
+          </div>
+          <div>Humidity : <span id="Humidity">26</span>%</div>
+          <div>wind speed : <span id="windSpeed"></span>32 km/h</div>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
