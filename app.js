@@ -12,9 +12,9 @@ let Humidity = document.getElementById("Humidity")
 let windSpeed = document.getElementById("windSpeed")
 
 let cites = {
-    "Dezful": { name: "Dezful", drgee: "36", status: "Sunny", Humidity: "26", windSpeed: "30", src: "url(\"img/Dezful.jpg\")"},
+    "Dezful": { name: "Dezful", drgee: "36", status: "Sunny", Humidity: "26", windSpeed: "30", src: "url(\"img/Dezful.jpg\")" },
     "Ahvaz": { name: "Ahvaz", drgee: "40", status: "cloudy", Humidity: "28", windSpeed: "35", src: "url(\"img/Ahwaz.jpg\")" },
-    "Tahran": { name: "Tahran", drgee: "25", status: "snowy", Humidity: "16", windSpeed: "34", src: "url(\"img/Tehran.jpg\")" },
+    "Tehran": { name: "Tehran", drgee: "25", status: "snowy", Humidity: "16", windSpeed: "34", src: "url(\"img/Tehran.jpg\")" },
     "Isfahan": { name: "Isfahan", drgee: "20", status: "rainy", Humidity: "10", windSpeed: "21", src: "url(\"img/Isfehan.jpg\")" },
 }
 
